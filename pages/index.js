@@ -28,12 +28,14 @@ export default function Home() {
           method="post"
           action="/api/auth"
           target="auth"
+          autocomplete="on"
           onSubmit={submitHandler}
           style={{ maxWidth: "300px", minHeight: "70px" }}
         >
           <input
             type="text"
             name="username"
+            autocomplete="username"
             id="password_name"
             placeholder="Username"
             required
@@ -41,6 +43,7 @@ export default function Home() {
           <input
             type="password"
             name="password"
+            autocomplete="current-password"
             id="password_field"
             placeholder="Password"
             required
@@ -65,6 +68,7 @@ export default function Home() {
       <form
         method="post"
         action="/api/login"
+        autocomplete="on"
         style={{ maxWidth: "300px", minHeight: "70px" }}
       >
         <input
@@ -72,11 +76,13 @@ export default function Home() {
           name="userid"
           id="userid"
           placeholder="UserID"
+          autocomplete="username"
           required
         />
         <input
           type="password"
           name="passcode"
+          autocomplete="current-password"
           id="passcode_field"
           placeholder="Passcode"
           required
