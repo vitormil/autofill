@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div>
       <h1>
-        Sign in (iframe target)<small>{now}</small>
+        Sign in (iframe target)<small>{now}&nbsp;</small>
       </h1>
       {loading ? (
         <div style={{ minHeight: "70px" }}>Loading...</div>

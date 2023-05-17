@@ -14,7 +14,7 @@ export default function Popup() {
   return (
     <div>
       <h1>
-        Popup<small>{now}</small>
+        Popup<small>{now}&nbsp;</small>
       </h1>
       <a href="#" onClick={close}>Close</a>
     </div>

@@ -10,7 +10,7 @@ export default function Authentication() {
   return (
     <div>
       <h1>
-        Dashboard<small>{now}</small>
+        Dashboard<small>{now}&nbsp;</small>
       </h1>
       <a href="/">Back</a>
     </div>

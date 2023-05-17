@@ -10,7 +10,7 @@ export default function Signin() {
   return (
     <div>
       <h1>
-        Login (form submit)<small>{now}</small>
+        Login (form submit)<small>{now}&nbsp;</small>
       </h1>
       <form
         method="post"
